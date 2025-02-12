@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+img{
+    width: 200px;
+}
+#contenedor-carrusel{
+    border: solid;
+    height: 200px;
+    width: 250px;
+    overflow: hidden;
+}
+.carrusel{
+    position: relative;
+}
+.flecha-iz{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    justify-content: space-between;
+    background-color: #a6acaf;
+}
+
+.flecha-de{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    justify-content: space-between;
+    background-color: #a6acaf;
+}
+.flecha-de:hover{
+    background-color: black;
+}

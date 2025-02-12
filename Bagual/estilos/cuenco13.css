@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+/*header*/
+header{
+    box-shadow: 0px 15px 18px rgba(0, 0, 0, 0.6);
+    position:sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #17202a;
+    color: #efefef;
+    padding: 1px;
+    z-index: 10;
+}
+.Bagual{
+    color:white;
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: 300;
+}
+.Tradicional{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-style: italic;
+}
+nav a{
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+.producto{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    gap: 40px;
+}
+.caracteristicas{
+    box-shadow: 0px 0px 4px #d0d3d4;
+    width: 400px;
+    background-color:#f7f9f9;
+}
+.precio{
+    text-decoration: line-through;
+    color: #c0392b;
+}
+p{
+    color: #797d7f ;
+    font-weight: 600;
+}
+section{
+    display: flex;
+    width: 600px;
+    height: 500px;
+}
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 400px;
+    filter: drop-shadow(0px 0px 30px black );
+    box-shadow: 0px 0px 20px black;
+    border: solid;
+}
